@@ -1,0 +1,23 @@
+{
+  "name": "redux-boilerplate",
+  "version": "1.0.0",
+  "description": "Redux + React boilerplate, start working right away, no configuration needed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "babel",
+    "es2015",
+    "es6",
+    "react",
+    "redux",
+    "react-redux",
+    "react-router"
+  ],
+  "author": "Alejandro Nanez Ortiz <alejonanez@gmail.com> (http://github.com/alejandronanez)",
+  "license": "MIT",
+  "devDependencies": {
+    "hjs-webpack": "7.0.0"
+  }
+}

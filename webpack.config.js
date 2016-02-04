@@ -1,6 +1,3 @@
-console.log(process.env.NODE_ENV);
-console.log(process.env.BABEL_ENV);
-
 var getConfig = require('hjs-webpack');
 
 var config = getConfig({

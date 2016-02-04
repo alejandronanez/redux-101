@@ -2,7 +2,7 @@ React + Redux + ES6 Boilerplate
 ====
 I don't want to setup a new application from scratch everytime I start a new project using React + Redux + ES6 + Hot Reloading + Webpack + ESLINT so I decided to create this boilerplate project.
 
-This project was heavily inspired in (hjs-webpack)[https://github.com/HenrikJoreteg/hjs-webpack].
+This project was heavily inspired in [hjs-webpack](https://github.com/HenrikJoreteg/hjs-webpack) that makes webpack configuration nice and easy.
 
 ## Usage
 For development:
@@ -16,7 +16,7 @@ Build your project:
 1. `npm run build`
 
 ## License
-MIT (Alejandro Nanez)[https://github.com/alejandronanez]
+MIT [Alejandro Nanez](https://github.com/alejandronanez)
 
 ## Contribute
 Feel free to fork this repo and send your PR's

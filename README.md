@@ -4,7 +4,12 @@ I don't want to setup a new application from scratch everytime I start a new pro
 
 This project was heavily inspired in [hjs-webpack](https://github.com/HenrikJoreteg/hjs-webpack) that makes webpack configuration nice and easy.
 
+## Requirements
+1. Node
+2. You'll need to have `npm > 3.x.x` installed on your system.
+
 ## Usage
+
 For development:
 
 1. `git clone https://github.com/alejandronanez/redux-react-boilerplate ./your-project-folder`

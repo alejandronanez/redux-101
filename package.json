@@ -1,26 +1,41 @@
 {
-    "name": "redux-boilerplate",
-    "version": "1.0.0",
-    "description": "Redux + React boilerplate, start working right away, no configuration needed",
-    "main": "index.js",
-    "scripts": {
-        "start": "hjs-dev-server",
-        "build": "webpack",
-        "deploy": "npm run build && surge -p public -d somedomain.com"
-    },
-    "keywords": ["babel", "es2015", "es6", "react", "redux", "react-redux", "react-router"],
-    "author": "Alejandro Nanez Ortiz <alejonanez@gmail.com> (http://github.com/alejandronanez)",
-    "license": "MIT",
-    "devDependencies": {
-        "autoprefixer": "6.3.1",
-        "babel-loader": "6.2.1",
-        "css-loader": "0.23.1",
-        "hjs-webpack": "7.0.0",
-        "json-loader": "0.5.4",
-        "node-sass": "3.4.2",
-        "postcss-loader": "0.8.0",
-        "sass-loader": "3.1.2",
-        "style-loader": "0.13.0",
-        "url-loader": "0.5.7"
-    }
+  "name": "redux-boilerplate",
+  "version": "1.0.0",
+  "description": "Redux + React boilerplate, start working right away, no configuration needed",
+  "main": "index.js",
+  "scripts": {
+    "start": "hjs-dev-server",
+    "build": "webpack",
+    "deploy": "npm run build && surge -p public -d somedomain.com"
+  },
+  "keywords": [
+    "babel",
+    "es2015",
+    "es6",
+    "react",
+    "redux",
+    "react-redux",
+    "react-router"
+  ],
+  "author": "Alejandro Nanez Ortiz <alejonanez@gmail.com> (http://github.com/alejandronanez)",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "6.3.1",
+    "babel-loader": "6.2.1",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "babel-preset-react-hmre": "1.1.0",
+    "css-loader": "0.23.1",
+    "hjs-webpack": "7.0.0",
+    "json-loader": "0.5.4",
+    "node-sass": "3.4.2",
+    "postcss-loader": "0.8.0",
+    "sass-loader": "3.1.2",
+    "style-loader": "0.13.0",
+    "url-loader": "0.5.7"
+  },
+  "dependencies": {
+    "react": "0.14.7",
+    "react-dom": "0.14.7"
+  }
 }

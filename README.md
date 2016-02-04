@@ -10,6 +10,11 @@ This project was heavily inspired in [hjs-webpack](https://github.com/HenrikJore
 
 ## Usage
 
+For example, you can import redux anywhere you want just by doing:
+```js
+import redux from 'redux'
+```
+
 For development:
 
 1. `git clone https://github.com/alejandronanez/redux-react-boilerplate ./your-project-folder`

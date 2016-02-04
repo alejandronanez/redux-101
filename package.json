@@ -1,12 +1,11 @@
 {
   "name": "redux-boilerplate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Redux + React boilerplate, start working right away, no configuration needed",
   "main": "index.js",
   "scripts": {
     "start": "hjs-dev-server",
-    "build": "webpack",
-    "deploy": "npm run build && surge -p public -d somedomain.com"
+    "build": "webpack"
   },
   "keywords": [
     "babel",

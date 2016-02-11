@@ -10,12 +10,12 @@ This project was heavily inspired in [hjs-webpack](https://github.com/HenrikJore
 
 ## Usage
 
-For example, you can import redux anywhere you want just by doing:
+* For example, you can import redux anywhere you want just by doing:
 ```js
 import redux from 'redux'
 ```
 
-If you want to import a component that's not on the same folder you can do something like: 
+* If you want to import a component that's not on the same folder you can do something like: 
 
 ```js
 import MyComponent from '~/components/foo/MyComponent'
@@ -27,14 +27,13 @@ instead of
 import MyComponent from '../../../foo/MyComponent'
 ```
 
-
-For development:
+* For development:
 
 1. `git clone https://github.com/alejandronanez/redux-react-boilerplate ./your-project-folder`
 2. `npm install`
 3. `npm start` -> Starts a server on `http://localhost:3000/`
 
-Build your project:
+* Build your project:
 
 1. `npm run build`
 

@@ -15,6 +15,19 @@ For example, you can import redux anywhere you want just by doing:
 import redux from 'redux'
 ```
 
+If you want to import a component that's not on the same folder you can do something like: 
+
+```js
+import MyComponent from '~/components/foo/MyComponent'
+```
+
+instead of
+
+```js
+import MyComponent from '../../../foo/MyComponent'
+```
+
+
 For development:
 
 1. `git clone https://github.com/alejandronanez/redux-react-boilerplate ./your-project-folder`

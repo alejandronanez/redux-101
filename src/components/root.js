@@ -1,12 +1,13 @@
-import { combineReducers } from 'redux';
-import BooksReducer from '~/reducers/reducer_books';
+import React, { Component } from 'react';
 
-/**
- * how reducers link to state. When we call the reducer we get the BOOKS state of the app.
- */
-const rootReducer = combineReducers({
-    books: BooksReducer
-});
+import BookList from '~/containers/book_list';
 
-export default rootReducer;
-
+export default class Root extends Component {
+    render() {
+        return (
+            <div>
+                <BookList />
+            </div>
+        );
+    }
+}

@@ -1,3 +1,8 @@
 export function selectBook(book) {
-    console.log(`Book has been selected: ${book}`);
+    // selectBook is an ActionCreator, it needs to return an action
+    // action -> object with type property
+    return {
+        type: 'BOOK_SELECTED',
+        payload: book
+    };
 }

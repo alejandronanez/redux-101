@@ -10,7 +10,8 @@ class BookDetail extends Component {
         return (
             <div>
                 <h3>Defails for:</h3>
-                <p>{this.props.book.title}</p>
+                <p>Title: {this.props.book.title}</p>
+                <p>Pages: {this.props.book.pages}</p>
             </div>
         );
     }

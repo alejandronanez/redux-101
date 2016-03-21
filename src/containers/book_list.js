@@ -4,25 +4,17 @@ import { selectBook } from '~/actions';
 import { bindActionCreators } from 'redux';
 
 class BookList extends Component {
-    constructor() {
-        super();
-
-        this.selectBook = this.selectBook.bind(this);
-    }
     renderList() {
         return this.props.books.map((book) => {
             return (
                 <li
                     className="list-group-item"
                     key={book.title}
-                    onClick={(event) => this.selectBook(event, book)}>
+                    onClick={() => this.props.selectBook(book)}>
                     {book.title}
                 </li>
             );
         });
-    }
-    selectBook(event, book) {
-        selectBook(book);
     }
     render() {
         return (
